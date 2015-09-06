@@ -75,6 +75,6 @@ while( 1 ):
 		# Ready for monitoring next movement
 		if ( debug == 1 ) :
 			print ( "Ready for monitoring next movement..!!" )
-	
 
 
+print ( "End of program")
