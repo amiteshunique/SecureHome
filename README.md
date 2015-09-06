@@ -26,15 +26,15 @@ To alert the user via twitter, whenever his home's main door opens.
 Pre-requisites: 
 ================
 (I) HARDWARE:
-	- Linux OS / Raspberry Pi - having sudo access on terminal/console.
-	- Wireless Mouse
-	- Mobile Phone having Twitter App (Optional)
+	* Linux OS / Raspberry Pi - having sudo access on terminal/console.
+	* Wireless Mouse
+	* Mobile Phone having Twitter App (Optional)
 
 (II) SOFTWARE:
-	- Python
-	- Twitter Python package - https://pypi.python.org/pypi/twitter
-	- Twitter Account
-	- Twitter Application installed in mobile (Optional)
+	* Python
+	* Twitter Python package - https://pypi.python.org/pypi/twitter
+	* Twitter Account
+	* Twitter Application installed in mobile (Optional)
 
 
 Procedure:
@@ -55,6 +55,7 @@ Procedure:
 	 13 API_SECRET = 'XXXX'
 	 14 ACCESS_TOKEN = 'XXXX'
 	 15 ACCESS_TOKEN_SECRET = 'XXXX'
+	 16 twitter_username = 'XXXX'
 
 4) Optionally in "SecureHome.py" file you can set "debug = 1" for enabling the console logs(enabled by default). Else set "debug = 0" for no logging on console.
 	 10 debug = 1
