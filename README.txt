@@ -54,6 +54,7 @@ Procedure:
 	 13 API_SECRET = 'XXXX'
 	 14 ACCESS_TOKEN = 'XXXX'
 	 15 ACCESS_TOKEN_SECRET = 'XXXX'
+	 16 twitter_username = 'XXXX'
 
 4) Optionally in "SecureHome.py" file you can set "debug = 1" for enabling the console logs(enabled by default). Else set "debug = 0" for no logging on console.
 	 10 debug = 1
