@@ -9,17 +9,18 @@ from twitter import *
 
 debug = 1
 
-API_KEY = 'bkryXSOeis6pJ962vVHCUXOK5'
-API_SECRET = 'jAPGazJYAcY29fYKJ22V7chAAkQwv98C7d4w2LpdmLhUY7cu9Y'
-ACCESS_TOKEN = '134903901-Ta4pxOUgHNCDmZzRNrhlDL8SnmpnI8wRoM62z6u2'
-ACCESS_TOKEN_SECRET = 'COUgjAVpXzJGFdftUAWsIsGpOUZmxARitQ1pJhu1hC1uO'
+API_KEY = 'XXXX'
+API_SECRET = 'XXXX'
+ACCESS_TOKEN = 'XXXX'
+ACCESS_TOKEN_SECRET = 'XXXX'
+twitter_username = 'XXXX'
 
 localtime = time.asctime( time.localtime(time.time()) )
 auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, API_KEY, API_SECRET)
 twitter = Twitter( auth=auth)
 welcome_msg = "\nWelcome to SecureHome..!! Initializing System @ " +localtime
 print ( welcome_msg )
-twitter.direct_messages.new(user="anand_amitesh",text=welcome_msg  )
+twitter.direct_messages.new(user=twitter_username,text=welcome_msg  )
 
 file = open( "/dev/input/mice", "rb" )
 
