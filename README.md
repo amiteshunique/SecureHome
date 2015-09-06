@@ -26,15 +26,15 @@ To alert the user via twitter, whenever his home's main door opens.
 Pre-requisites: 
 ================
 (I) HARDWARE:
-	* Linux OS / Raspberry Pi - having sudo access on terminal/console.
-	* Wireless Mouse
-	* Mobile Phone having Twitter App (Optional)
+	* Linux OS / Raspberry Pi - having sudo access on terminal/console ;
+	* Wireless Mouse ;
+	* Mobile Phone having Twitter App (Optional) ;
 
 (II) SOFTWARE:
-	* Python
-	* Twitter Python package - https://pypi.python.org/pypi/twitter
-	* Twitter Account
-	* Twitter Application installed in mobile (Optional)
+	* Python ;
+	* Twitter Python package - https://pypi.python.org/pypi/twitter ;
+	* Twitter Account ;
+	* Twitter Application installed in mobile (Optional) ;
 
 
 Procedure:
