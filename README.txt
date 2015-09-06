@@ -1,4 +1,3 @@
-# SecureHome
 Hello,
 
 Greetings to you..!!
