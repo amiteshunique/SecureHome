@@ -41,7 +41,7 @@ Procedure:
 
 1) Python should be installed. (if not already installed:  sudo apt-get install python )
 
-2) Install twitter package from 
+2) Install twitter package from this repo OR download from below link:
 	(a) Visit->  https://pypi.python.org/pypi/twitter
 	(b) Click on "Downloads" 
 	(c) Save it in your prefered location
@@ -54,6 +54,7 @@ Procedure:
 	 13 API_SECRET = 'XXXX'
 	 14 ACCESS_TOKEN = 'XXXX'
 	 15 ACCESS_TOKEN_SECRET = 'XXXX'
+	 16 twitter_username = 'XXXX'
 
 4) Optionally in "SecureHome.py" file you can set "debug = 1" for enabling the console logs(enabled by default). Else set "debug = 0" for no logging on console.
 	 10 debug = 1
